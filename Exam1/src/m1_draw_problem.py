@@ -27,19 +27,21 @@ def test_draw_a_picture():
     test_window = rg.RoseWindow(500, 500)
 
     #  tests draw_a_picture with point 1, n=10, and test_window
-    print('######################################')
+    print('###################################################')
     print('Test 1 of draw_a_picture.')
-    print('Called with point1 =', point1, 'n =', n, ' color = blue')
-    print('######################################')
+    print('Called with point1 =', point1)
+    print( 'n =', n, ' color = blue')
+    print('###################################################')
     draw_a_picture(point1, n, 'blue', test_window)
 
     point2 = rg.Point(100, 300)
     n = 4
     #  tests draw_a_picture with point 2, n =4, test_window
-    print('######################################')
+    print('###################################################')
     print('Test 2 of draw_a_picture.')
-    print('Called with point2 =', point2, 'n =', n, ' color = green')
-    print('######################################')
+    print('Called with point2 =', point2)
+    print( 'n =', n, ' color = green')
+    print('###################################################')
     draw_a_picture(point2, n, 'green', test_window)
     test_window.close_on_mouse_click()
 
